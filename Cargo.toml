@@ -2,5 +2,16 @@
 name = "str_windows"
 version = "0.1.0"
 authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+include = ["src/lib.rs", "Cargo.toml", "README.md", "LICENSE-APACHE-2", "LICENSE-MIT"]
+description = "Provides an iterator over windows of chars (as `&str`s) of a `&str`."
+repository = "https://github.com/derekdreery/str_windows-rs"
+readme = "README.md"
+keywords = ["windows", "window", "string", "str", "iterator"]
+categories = ["text-processing"]
+license = "MIT/Apache-2.0"
 
-[dependencies]
+[badges]
+appveyor = { repository = "derekdreery/str_windows-rs" }
+travis-ci = { repository = "derekdreery/str_windows-rs" }
+maintenance = { status = "passively-maintained" }
+
